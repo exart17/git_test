@@ -1,0 +1,97 @@
+console.log("PROVES TYEPOF")
+let fraseProva = "Hola això es un string";
+console.log(fraseProva);
+console.log(typeof fraseProva);
+
+let numAleatori = 34;
+console.log(numAleatori);
+console.log(typeof numAleatori);
+
+let veritat = true;
+console.log(veritat);
+console.log(typeof veritat);
+
+let fals = false;
+console.log(fals);
+console.log(typeof fals);
+
+console.log("-".repeat(75))
+
+console.log("PROVES ENTRE COMETES")
+let entreCometes = "Ella va dir \"Hola\"";
+console.log(entreCometes)
+
+console.log("-".repeat(75))
+
+console.log("PROVES REPLEACE I SLICE")
+let persona1 = "Yoel";
+
+let fraseYoel = `El que mes li agrada al ${persona1} es escriure codi.`;
+console.log(fraseYoel);
+
+fraseDivertidaYoel = fraseYoel.replace("escriure codi.", "perdre al fifa.");
+console.log(fraseDivertidaYoel);
+
+fraseDivertidaYoel2 = fraseYoel.replace("escriure codi.","tryhardear al Hinge.");
+console.log(fraseDivertidaYoel2);
+
+console.log(fraseYoel.replace("escriure codi.", "sacar per baix."));
+console.log(fraseYoel.replace("escriure codi.", "una bona fresqui."))
+
+console.log("-".repeat(35))
+
+let fraseProvaSlice = "Això es una prova";
+console.log(fraseProvaSlice);
+console.log(fraseProvaSlice.slice(0, 4));
+console.log(fraseProvaSlice.slice(5));
+console.log(fraseProvaSlice.slice(8));
+console.log(fraseProvaSlice.slice(-1));
+console.log(fraseProvaSlice.slice(-5));
+console.log(fraseProvaSlice.slice(5, 11));
+
+console.log("-".repeat(75))
+
+console.log("PROVES SALT LINIA")
+let poema = "Poema Alonso:\nRoses are red,\nViolets are blue,\nAnd Fernando is faster than you."
+console.log(poema)
+
+console.log("-".repeat(75))
+
+console.log("PROVES ASCII")
+
+let deLletraAscii = "A"
+console.log(deLletraAscii.charCodeAt(0))
+
+let deAsciiALletra = String.fromCharCode(65)
+console.log(deAsciiALletra)
+
+console.log("-".repeat(75))
+
+console.log("PROVES INDEXOF")
+let fraseProva2 = "M'agradaria molt treballar de desenvolupador web"
+console.log(fraseProva2.indexOf("molt"))
+console.log(fraseProva2.indexOf("desenvolupador"))
+
+console.log("-".repeat(75))
+
+console.log("PROVES INDEXOF")
+
+let fraseProva3 = "I treballar parlant amb anglès"
+console.log(fraseProva3.includes("parlant")) 
+console.log(fraseProva3.includes("parlava"))
+
+console.log("-".repeat(75))
+
+console.log("PROVES MAJUSCULES I MINUSCULES")
+let fraseProva4 = "Aquesta frase la transformarem a majúcules o a minúscules"
+console.log(fraseProva4.toLocaleUpperCase())
+console.log(fraseProva4.toLocaleLowerCase())
+
+console.log("-".repeat(75))
+
+console.log("PROVES TALLAS ESPAIS EN BLANC")
+let fraseProva5 = "  Vull tallar espais  "
+console.log(fraseProva5)
+console.log(fraseProva5.trim())
+console.log(fraseProva5.trimEnd())
+console.log(fraseProva5.trimStart())
